@@ -21,7 +21,7 @@ function addTask(){
         checkButton.addEventListener('click',()=>{
             taskLi.style.textDecoration = 'line-through'
             checkButton.style.display = 'none'
-            taskLi.style.color = '#00AC65'
+            taskLi.style.color = '#6A888C'
             taskLi.style.fontStyle = 'italic'
         })
         const removeButton = document.createElement('button')

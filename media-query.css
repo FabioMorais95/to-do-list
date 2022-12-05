@@ -1,0 +1,29 @@
+@media (min-width: 769px){
+    main{
+        background-color: #212B40;
+    }
+    h1{
+        color: #DCDCD4;
+    }
+    .todo{
+        background-color: #DCDCD4;
+        border-bottom:2px solid #212B40;
+        width: 50vw;
+    }
+    #section-list{
+        background-color: #DCDCD4;
+        width: 50vw;
+    }
+    #add{
+        background-color: #212B40;
+        color: #00AC65;
+        cursor: pointer;
+    }
+    #add:hover{
+        color: #DCDCD4;
+    }
+    input{
+        height: 7vh;
+    }
+    
+}
