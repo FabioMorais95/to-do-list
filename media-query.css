@@ -9,21 +9,30 @@
         background-color: #DCDCD4;
         border-bottom:2px solid #212B40;
         width: 50vw;
+        display: flex;
+        justify-content: space-around;
     }
-    #section-list{
-        background-color: #DCDCD4;
-        width: 50vw;
+    input{
+        height: 7vh;
+    }
+    .btns{
+        transition: .3s;
     }
     #add{
         background-color: #212B40;
         color: #00AC65;
         cursor: pointer;
     }
-    #add:hover{
+    #add:hover, #showBtn:hover{
+        background-color: #00AC65;
         color: #DCDCD4;
-    }
-    input{
-        height: 7vh;
+        font-weight: bold;
+        transition: .3s;
+        cursor: pointer;
     }
     
+    #section-list{
+        background-color: #DCDCD4;
+        width: 50vw;
+    }
 }
